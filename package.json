@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "RESTful API with Node.js, Express, and PostgreSQL",
   "main": "BE.js",
-  "license": "MIT"
+  "license": "MIT",
+  
   "scripts": {
     "start": "node BE.js",
   "test": "(eslint lib || true) && jest"
