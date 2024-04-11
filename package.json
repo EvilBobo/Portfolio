@@ -11,6 +11,6 @@
   "author": "Ciaran/EvilBobo",
   "license": "ISC",
   "engines": {
-  "node": ">=18.18.0 <20.12.01"
+  "node": ">=18.18.0 <19.0.0"
 }
 }
