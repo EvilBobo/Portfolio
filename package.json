@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Setting uo my portfiolio webpage",
   "main": "FirstScript.js",
-  "scripts": {
-    "test": ""
-  },
   "keywords": [
     "ciaran",
     "EvilBobo",
