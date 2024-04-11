@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Setting uo my portfiolio webpage",
+  "main": "FirstScript.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "ciaran",
+    "EvilBobo",
+    "Portfolio"
+  ],
+  "author": "Ciaran/EvilBobo",
+  "license": "ISC",
+}
