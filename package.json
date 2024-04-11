@@ -4,7 +4,7 @@
   "description": "Setting uo my portfiolio webpage",
   "main": "FirstScript.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node FirstScript.js",
   "test": "(eslint lib || true) && jest"
 },
   "keywords": [
