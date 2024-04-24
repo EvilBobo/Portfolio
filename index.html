@@ -5,33 +5,124 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="FirstCSS.css">
         <script src="FirstScript.js"></script>
-        <script src="BE.js"></script>
         <title>Hello :)</title>
     </head>
     <body>
+        <button onclick="gifattack()">Gif</button>
         <h1> CSS Style Guide</h1>
         <h2> Text Colours</h2>
         <h3 id="red">Red</h3>
         <h4 id="green">Green</h4>
         <h5 id="blue">Blue</h5>
-        <div class="grid-container">
-            <div class="item1">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div class="grid-item">6</div>
-            <div class="grid-item">7</div>
-            <div class="grid-item">8</div>
-            <div class="grid-item">9</div>
-          </div>
           <p>This example links to "myScript.js".</p>
+
+         
           <p>(myFunction is stored in "myScript.js")</p>
           <p id="demo">JavaScript can change the style of an HTML element.</p>
           <button type="button" onclick="myFunction()">Try it</button>
           <button type="button" onclick="document.getElementById('demo').style.color='blue'">Click Me!</button>
           <p onclick="pink()" style="padding:10px;background:pink">Pink</p>
           <p onclick="sky()" style="padding:10px;background:skyblue">Sky</p>
-        Attempt Commit again!!
+          <img id="myFan" src="Arrow.png" width="200" heigh="100"><br>
+
+          <button onclick="animateOnce()">Once</button>
+          <button id="on" onclick="turnOn()"> On </button><br>
+          <button id="off" onclick="turnOff()"> Off </button>
+
+          <div id="traffic-light">
+            <div id="stopLight" class="bulb"></div>
+            <div id="yeildLight" class="bulb"></div>
+            <div id="goLight" class="bulb"></div>
+          </div>
+          
+          <style>
+            body {
+              overflow: hidden;
+            }
+          
+            #bluefish {
+              position: absolute;
+              top: 31pc;
+              width: 17pc;
+              left: -.5pc;
+            }
+          
+            #turtle {
+              position: absolute;
+              width: 15pc;
+              top: 20pc;
+            }
+            
+            #bluefishwin {
+              position: absolute;
+              right: 1pc;
+              top: 31pc;
+              display: none;
+            }
+            
+            #turtlewin {
+              position: absolute;
+              right: 1pc;
+              top: 20pc;
+              display: none;
+            }
+          
+            .finishline {
+              position: absolute;
+              right: -12pc;
+              top: 18pc;
+            }
+          
+            #traffic-light {
+              height: 10pc;
+              width: 4pc;
+              background-color: #333;
+              border-radius: 20pc;
+              position: absolute;
+            }
+          
+            .bulb {
+              height: 2pc;
+              width: 2pc;
+              background-color: #111;
+              border-radius: 50%;
+              margin: 15px auto;
+              transition: background 500ms;
+            }
+          
+            #container {
+              width: 400px;
+              height: 400px;
+              position: relative;
+              background: yellow;
+            }
+          
+            #animate {
+              width: 50px;
+              height: 50px;
+              position: absolute;
+              background: red;
+            }
+
+          </style>
+          
+          <img id="bluefish" src="Arrow.png">
+          <img id="turtle" src="Arrow.png">
+          <img src="Arrow.png" class="finishline">
+          <img id="bluefishwin" src="Arrow.png">
+          <img id="turtlewin" src="Arrow.png">
+
+          <div id="cont">
+            <img id="gifimg" src="dice.gif">
+           </div>
+        
+          <p>
+            <button onclick="myMove()">Click Me</button>
+          </p>
+          
+          <div id="container">
+            <div id="animate"></div>
+          </div>
+
         </body>
 </html>

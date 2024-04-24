@@ -21,6 +21,15 @@ selectors). */
     font-weight: normal;
     margin-top: 5px;
     }
+
+    div {
+      display: inline-block;
+      text-align: center;
+    }
+    label {
+      display: block;
+    }
+    
     /* Applies to all elements with <... class="someclass"> specified. */
     .grid-item { color: red; }
     /* Applies to the element with <... id="someid"> specified. */
