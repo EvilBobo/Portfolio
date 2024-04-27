@@ -1,6 +1,6 @@
 
 /* Applies to the entire body of the HTML document (except where overridden by more specific
-selectors).
+selectors).*/
     body {
     margin: 25px;
     background-color: rgb(155, 86, 160);
@@ -8,6 +8,7 @@ selectors).
     color: azure;
     font-size: 14px;
     }
+/*
     .grid-container {
         display: inline-grid;
         row-gap: 50px;
