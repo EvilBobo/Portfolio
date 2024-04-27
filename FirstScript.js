@@ -224,10 +224,12 @@ document.addEventListener('click', function (event) {
 */
 //Dice Roll.
 
+$(document).ready(function(e) {  
 $("body").on("click", ".dice", function() {
   var roll = Math.floor(Math.random() * 6 + 1);
   $(this).attr("class", "dice");
   setTimeout(function() {
     $(".dice").addClass("roll-" + roll);
   }, 1);
+});
 });
